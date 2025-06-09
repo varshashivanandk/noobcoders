@@ -8,18 +8,18 @@
 The Lane Management System is an AI-based surveillance solution designed to detect unsafe or unauthorized lane changes using real-time video processing. The system leverages flash detection, hand gesture recognition, and number plate extraction to monitor driver behavior and enforce lane discipline.
 
 **Key Features:**
-🚦 **1. Flash Detection**
+**1. Flash Detection**
 Detects sudden changes in light intensity — such as flashes from vehicle headlamps or cameras — by analyzing frame-by-frame pixel brightness.
 
 Implements a dynamic thresholding mechanism to adapt to varying ambient lighting conditions.
 
-Differentiates between:
+**Differentiates between:**
 
-Valid scenarios: Left flash + left-hand signal or right flash + right-hand signal (no action taken).
+**Valid scenarios:** Left flash + left-hand signal or right flash + right-hand signal (no action taken).
 
-Invalid scenarios: Mismatched flash and hand signals, triggering a capture.
+**Invalid scenarios:** Mismatched flash and hand signals, triggering a capture.
 
-✋ **2. Hand Gesture Detection**
+**2. Hand Gesture Detection**
 Continuously captures frames to recognize static hand signals using:
 
 Contour detection
@@ -28,7 +28,7 @@ Convex hull and convexity defects to determine the number of extended fingers or
 
 Assists in validating driver intentions when switching lanes.
 
-🚘 **3. Number Plate Recognition**
+**3. Number Plate Recognition**
 Detects vehicle number plates in real-time using Haar Cascade classifiers.
 
 Captures and saves an image of the vehicle (including the number plate) to local storage if unauthorized behavior is detected.

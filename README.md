@@ -1,6 +1,9 @@
 **Project Title: Lane Management**
+
 **Team Members:**  Varsha Shivanand K, Prachi Agarwal, Syed Farhan Ahmed
+
 **Technologies Used:** Python, OpenCV, AI-integrated Cameras
+
 **Project Overview:**
 The Lane Management System is an AI-based surveillance solution designed to detect unsafe or unauthorized lane changes using real-time video processing. The system leverages flash detection, hand gesture recognition, and number plate extraction to monitor driver behavior and enforce lane discipline.
 

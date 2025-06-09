@@ -8,7 +8,6 @@
 The Lane Management System is an AI-based surveillance solution designed to detect unsafe or unauthorized lane changes using real-time video processing. The system leverages flash detection, hand gesture recognition, and number plate extraction to monitor driver behavior and enforce lane discipline.
 
 **Key Features:**
-
 **1. Flash Detection**
 Detects sudden changes in light intensity — such as flashes from vehicle headlamps or cameras — by analyzing frame-by-frame pixel brightness.
 
